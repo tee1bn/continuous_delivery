@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/gitstard/public_html/continous_delivery 
+    - export DEPLOYPATH=/home2/gitstard/continous_delivery 
     - /bin/cp -r * $DEPLOYPATH
